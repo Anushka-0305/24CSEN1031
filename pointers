@@ -1,0 +1,14 @@
+# include <stdio.h>
+
+int main() {
+    int i = 6;
+    printf("Value of i : %d and its address: %u", i, &i);
+    
+    int *ptr_i;
+    ptr_i = &i;
+    printf("\nValue of ptr_i : %u and value pointed by the pointer is : %d", ptr_i, *ptr_i); 
+
+    return 0;
+}
+Value of i : 6 and its address: 4052126676
+Value of ptr_i : 4052126676 and value pointed by the pointer is : 6
