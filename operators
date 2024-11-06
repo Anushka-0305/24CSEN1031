@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main() {
+    int a = 6, b= 8;
+    
+    // Arithmetic Operators
+    printf("Arithmetic Operators\n");
+    printf("%d + %d = %d\n", a, b, a+b);
+    printf("%d - %d = %d\n", a, b, a-b);
+    printf("%d * %d = %d\n", a, b, a*b);
+    printf("%d / %d = %d\n", a, b, (a/b));
+    printf("%d %% %d = %d\n\n", a, b, a%b);
+    
+    // Relational Operators
+    printf("Relational Operators\n");
+    printf("%d < %d = %d\n", a, b, a<b);
+    printf("%d > %d = %d\n", a, b, a>b);
+    printf("%d == %d = %d\n", a, b, a==b);
+    printf("%d != %d = %d\n\n", a, b, a!=b);
+
+    // Logical Operators
+    printf("Logical Operators\n");
+    printf("AND %d && %d = %d\n", a, b, a && b);
+    printf("OR %d || %d = %d\n", a, b, a || b);
+    printf("NOT %d = %d\n\n", a, !a);
+    
+    // Bitwise Operators
+    printf("Bitwise Operators\n");
+    printf("%d & %d = %d\n", a, b, a&b);
+    printf("%d | %d = %d\n", a, b, a|b);
+    printf("Bitwise XOR %d ^ %d = %d\n", a, b, a^b);
+    printf("Left Shift %d << 2 = %d\n", a, a<<2);
+    printf("Right Shift %d >> 2 = %d\n", a, a>>2);
+    
+    //Conditional Operator - Ternary operator
+    
+    (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+    
+    return 0;
+}
+
+Arithmetic Operators
+6 + 8 = 14
+6 - 8 = -2
+6 * 8 = 48
+6 / 8 = 0
+6 % 8 = 6
+
+Relational Operators
+6 < 8 = 1
+6 > 8 = 0
+6 == 8 = 0
+6 != 8 = 1
+
+Logical Operators
+AND 6 && 8 = 1
+OR 6 || 8 = 1
+NOT 6 = 0
+
+Bitwise Operators
+6 & 8 = 0
+6 | 8 = 14
+Bitwise XOR 6 ^ 8 = 14
+Left Shift 6 << 2 = 24
+Right Shift 6 >> 2 = 1
+
+a is greater than b
