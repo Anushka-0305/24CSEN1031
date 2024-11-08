@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+int num = 10;
+int *ptr1= &num;
+int *ptr = &num;
+int **ptr2 = &ptr1;
+printf("address of num = %u\n",ptr1);
+printf("address ofptr1 = %u\n", ptr2);
+printf("address of ptr1 = %u\n",&ptr1);
+printf("%u\n", *ptr2);
+printf("%d\n", *ptr2);
+printf("%d\n", **&ptr);
+    return 0;
+}
+
+
+
+
+address of num = 2409518772
+address ofptr1 = 2409518760
+address of ptr1 = 2409518760
+2409518772
+-1885448524
+10
