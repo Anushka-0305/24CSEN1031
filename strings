@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+  char me[] = "Anushka";
+  char not_me[] = "\nPrashant";
+  char also_not_me[] = "\ngurll";
+char branch[10];
+printf("length of the string %d\n", strlen(me));
+printf("combine two strings %s\n", strcat(not_me, also_not_me));
+strcpy(branch, "biotech");
+printf("branch is %s\n", branch);
+    return 0;
+} 
+
+
+
+length of the string 7
+combine two strings 
+Prashant
+gurll
+branch is biotech
