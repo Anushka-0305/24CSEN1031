@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+// Define a structure to hold student information
+struct Student {
+    char name[50];
+    int roll_no;
+    float marks;
+};
+
+int main() {
+    // Declare a structure variable
+    struct Student student1;
+    // Get student information from the user
+    printf("Enter student name: ");
+    scanf("%s", student1.name)
+    printf("Enter student roll number: ");
+    scanf("%d", &student1.roll_no);
+    printf("Enter student marks: ");
+    scanf("%f", &student1.marks);
+    // Print the student's information
+    printf("\nStudent Information:\n");
+    printf("Name: %s\n", student1.name);
+    printf("Roll Number: %d\n", student1.roll_no);
+    printf("Marks: %.2f\n", student1.marks);
+
+    return 0;
+}
+
+
+
+
+
+
+Enter student name: anushka
+Enter student roll number: 12
+Enter student marks: 45
+
+Student Information:
+Name: anushka
+Roll Number: 12
+Marks: 45.00
