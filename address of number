@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+  int number = 10;
+
+  // Get the address of the variable 'number'
+  int *address = &number;
+
+  // Print the address
+  printf("The address of the variable 'number' is: %p\n", address);
+
+  // Print the value stored at the address
+  printf("The value stored at the address is: %d\n", *address);
+
+  return 0;
+}
+
+
+
+
+The address of the variable 'number' is: 0x7fffdf47c5e4
+The value stored at the address is: 10
