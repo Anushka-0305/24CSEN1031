@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+  // Declare an array of integers with a size of 5
+  int numbers[5];
+
+  // Get input from the user for each element of the array
+  printf("Enter 5 numbers:\n");
+  for (int i = 0; i < 5; i++) {
+    scanf("%d", &numbers[i]);
+  }
+
+  // Print the numbers in the array
+  printf("\nThe numbers you entered are:\n");
+  for (int i = 0; i < 5; i++) {
+    printf("%d ", numbers[i]);
+  }
+  printf("\n");
+
+  return 0;
+}
+
+
+Enter 5 numbers:
+0
+6
+9
+9
+0
+
+The numbers you entered are:
+0 6 9 9 0 
